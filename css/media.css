@@ -1,0 +1,520 @@
+/* start sm screen */
+@media (min-width: 640px){
+    /* start latest */
+.latest .left .flex .p1 {
+  display: block;
+  background-color: black;
+  color: white;
+  width: 131px;
+  height: 42px;
+  font-size: 11px;
+  font-weight: 700;
+  padding-left: 9px;
+  padding-top: 12px;
+  transform: rotate(-3deg);
+  box-shadow: 3px 5px 0 0 black;
+}
+    /* end latest */
+    /* start author */
+    .author .parent .image {
+    width: 130px;
+}
+.author .parent h3 {
+    font-size: 26px;
+}
+.author .parent .p2 {
+    font-size: 14px;
+}
+.author .parent .p3 {
+    font-size: 14px;
+}
+.author .parent .flex1 {
+    width: 200px;
+}
+.author .parent .flex1 a {
+    font-size: 22px;
+}
+.author .parent1::after , .author .parent2::after , .author .parent3::after {
+    font-size: 12px;
+}
+.author h2 {
+    font-size: 46px;
+}
+.author .p1 {
+    font-size: 20px;
+}
+.author .line {
+    width: 112px;
+    height: 10px;
+}
+.author .one {
+    width: 140px;
+    height: 137px;
+    top: 5%;
+}
+.author .two {
+
+    width: 100px;
+    height: 100px;
+
+}
+    /* end author */
+/* start comunity */
+.comunity h2 {
+    font-size: 42px;
+}
+.comunity .p1 {
+    font-size: 18px;
+}
+.comunity .line {
+    width: 100px;
+    height: 8px;
+}
+.comunity .left .p2 {
+    font-size: 32px;
+}
+.comunity .left .div {
+    font-size: 18px;
+}
+.comunity .left .flex1 .p3 {
+    font-size: 16px;
+}
+.comunity .left .div2 {
+    font-size: 21px;
+}
+.comunity .right .p4 {
+    font-size: 26px;
+}
+.comunity .right .parent .p5 {
+    font-size: 16px;
+}
+.comunity .right .parent .flex2 .text .p6 {
+    font-size: 16px;
+}
+.comunity .right .parent .flex2 .text .p7 {
+    font-size: 12px;
+}
+.comunity .right .parent .flex2 .image {
+    width: 40px;
+}
+/* end comunity */
+footer .flex .div2 {
+    width: 100%;
+}
+footer .flex .div3 {
+    width: 100% ;
+}
+
+}
+/* end sm screen */
+/* start md screen */
+@media (min-width: 768px){
+header .owner .menue{
+    width: 300px;
+}
+header .owner .menue .two a{
+    font-size: 20px;
+}
+/* start home */
+.home .flex1 .box1 .div1{
+    font-size: 24px;
+}
+.home .flex1 .box1 .flex3{
+    justify-content: flex-start;
+}
+.home .flex1 .box1 .flex3 .div2 , .home .flex1 .box1 .flex3 .div3{
+    font-size: 20px;
+    width: 220px;
+    height: 65px;
+    margin-right: 15px;
+
+}
+/* end home */
+/* start latest */
+.latest .left .flex .p1 {
+    width: 200px;
+    height: 42px;
+    font-size: 16px;
+    text-align: center;
+}
+.latest .left .parent .text{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.latest .left .parent .text .p2{
+    width: 50%;
+    margin-top: 20px;
+}
+/* end latest */
+}
+/* end md screen */
+/* start lg screen */
+/* start comunity */
+.comunity h2 {
+    font-size: 48px;
+}
+.comunity .p1 {
+    font-size: 20px;
+}
+.comunity .line {
+    width: 115px;
+    height: 11px;
+}
+.comunity .left .p2 {
+    font-size: 36px;
+}
+.comunity .left .div {
+    font-size: 20px;
+}
+.comunity .left .flex1 .p3 {
+    font-size: 18px;
+}
+.comunity .left .div2 {
+    font-size: 24px;
+}
+.comunity .right .p4 {
+    font-size: 30px;
+}
+.comunity .right .parent .p5 {
+    font-size: 18px;
+}
+.comunity .right .parent .flex2 .text .p6 {
+    font-size: 18px;
+}
+.comunity .right .parent .flex2 .text .p7 {
+    font-size: 14px;
+}
+.comunity .right .parent .flex2 .image {
+    width: 50px;
+}
+.comunity .left .flex1 i {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* end comunity */
+/* start footer */
+footer .flex .div1 i {
+    font-size: 28px;
+    width: 65px;
+    height: 54px;
+}
+footer .flex .div1 h4 {
+    font-size: 30px;
+}
+footer .flex .div1 .p1 {
+    font-size: 18px;
+}
+footer .flex .div2 h4 {
+    font-size: 24px;
+}
+footer .flex {
+    flex-flow: wrap row;
+
+}
+footer .flex .div1{
+    width: 100%;
+}
+footer .flex .div2{
+    width: 30%;
+}
+    footer .flex .div3 {
+        width: 65%;
+        margin: auto;
+    }
+footer .flex .div3 h4 {
+    font-size: 24px;
+}
+footer .flex .div3 .p2 {
+    font-size: 18px;
+}
+footer .flex .div3 input {
+    padding: 15px;
+    font-size: 18px;
+}
+footer .flex .div3 button {
+    font-size: 18px;
+}
+footer .flex2 .flex4 {
+
+    width: 55%;
+}
+
+/* end footer */
+@media (min-width: 1024px){
+/* start header */
+header .owner .menue{
+    width: 300px;
+}
+.container{
+    width: 95%;
+}
+header{
+    width: 95%;
+}
+header .owner .menue .two a{
+    font-size: 20px;
+}
+#menu-toggle:checked ~ .owner {
+    left: -8%;
+}
+/* end header */
+/* start home */
+.home{
+    padding-bottom: 50px;
+}
+.home .flex1 .box1 {
+    width: 53%;
+}
+.home .flex1 .box2{
+    width: 44%;
+}
+.home .three{
+    transform: rotate(30deg);
+    top: 579px;
+    width: 130px;
+    height: 130px;
+}
+.home .one{
+        transform: rotate(10deg);
+        top: 29px;
+        left: 53px;
+        width: 129px;
+        height: 127px;
+}
+.home .two{
+    left: 66%;
+    top: 31%;
+    width: 120px;
+    height: 120px;
+}
+.home .flex1 .box1 .p1{
+    font-size: 14px;
+    width: 145px;
+    
+}
+.home .flex1 .box1 .p2{
+    font-size: 72px;
+    margin-top: 20px;
+}
+.home .flex1 .box1 .p3{
+    font-size: 72px;
+    margin-top: 0;
+}
+.home .flex1 .box1 .p4{
+    font-size: 72px;
+    margin-top: 0;
+}
+.home .flex1 .box1 .div1{
+    padding-right: 20px;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 30px;
+    margin-bottom: 27px;
+}
+.home .flex1 .box2 .div4{
+    margin-top: 183px;
+}
+.home .flex1 .box1 .flex3{
+    justify-content: flex-start;
+}
+.home .flex1 .box1 .flex3 .div2 , .home .flex1 .box1 .flex3 .div3{
+    font-size: 20px;
+    width: 220px;
+    height: 65px;
+    margin-right: 15px;
+}
+.home .flex1 .box2 .div4{
+    border: 2px solid black;
+    transform: rotate(2deg)  translate(0,0 );
+
+}
+.home .flex1 .box2 .div4:hover{
+    border: 2px solid black;
+    transform: rotate(2deg)  translate(-2px,-2px );
+
+}
+/* end home */
+/* start latest */
+.latest .container{
+    position: relative;
+    display: flex;
+    height: 100%;
+    gap: 30px;
+}
+.latest .left{
+    width: 70%;
+}
+.latest .right{
+    position: sticky;
+    top: 20px;
+    align-self: flex-start;
+}
+.latest .left .parent .text{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.latest .left .parent .text .p2{
+    width: 25%;
+}
+.latest .left .flex1 .parent{
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+
+}
+.latest .left .flex1 h3 {
+    font-size: 24px;
+}
+.latest .left .flex1 .p1 {
+    font-size: 18px;
+}
+.latest .left .parent .text .p2 {
+        width: 50%;
+        font-size: 14px;
+    }
+.latest .left .flex1 .image {
+    width: 215px;
+    height: 80px;
+}
+.latest .left .flex1 .image img {
+    height: 100%;
+}
+.latest .right .flex1 .p1 {
+    font-size: 18px;
+}
+.latest .right .flex1 .p2 {
+    font-size: 14px;
+}
+.latest .right h3 {
+    font-size: 30px;
+
+}
+.latest .right .flex1 .num {
+    font-size: 36px;
+}
+.latest .right .parent2 ul li {
+    font-size: 16px;
+}
+.latest .div5 {
+    width: 325px;
+    height: 55px;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+}
+.latest .right .parent {
+    margin-top: 0px;
+}
+/* end latest */
+/* start author */
+.author .flex {
+    justify-content: space-between;
+    display: flex;
+    flex-flow: wrap row;
+}
+.author .flex .parent {
+    width: 49%;
+}
+/* end author */
+/* start comunity */
+.comunity .flex {
+    display: flex;
+    gap: 30px;
+}
+.comunity .flex .left{
+    margin-top: 90px;
+}
+/* end comunity */
+/* start footer  */
+footer .flex .div1{
+    width: 39%;
+}
+footer .flex .div2{
+    width: 15%;
+}
+footer .flex .div3{
+    width: 39%;
+}
+
+/* end footer  */
+}
+/* end lg screen */
+/* start xl screen */
+@media (min-width: 1280px){
+.container{
+    width: 80%;
+}
+header{
+    width: 80%;
+}
+/* start header */
+header .flex1 .flex2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+header .fa-bars{
+    display: none;
+}
+header .flex1 .sub{
+    display: inline-block;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #FFD15B;
+    font-size: 14px;
+    font-weight: 800;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid black;
+    transition: all 0.2s;
+}
+header .flex1 .sub:hover{
+    transform: translate(3px,3px);
+}
+header .flex1 .fa-bars{
+    display: none;
+}
+header .flex1 .p1 a{
+    font-size: 30px;
+}
+header .owner{
+    display: none;
+}
+/* end header */
+/* start latest */
+.latest .left .parent .text .p2 {
+        width: 25%;
+        font-size: 14px;
+    }
+/* end latest */
+/* start author */
+.author .flex .parent {
+    width: 32%;
+}
+/* end author */
+/* start footer  */
+footer .flex2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+footer .flex2 .p4 {
+    font-size: 16px;
+}
+footer .flex2 .flex4 a {
+    font-size: 15px;
+}
+footer .flex2 .flex4 {
+    width: 40%;
+}
+/* end footer  */
+}
+/* end xl screen */
+/* start xxl screen */
+@media (min-width: 1536px){
+    
+}
+/* end xxl screen */
